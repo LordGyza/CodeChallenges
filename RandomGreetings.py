@@ -1,6 +1,6 @@
 
 import random
-
+import time
 
 def ranLang():
   lang = random.randint(0,21)
@@ -25,4 +25,6 @@ greeting = ["Hello","Bonjour",
 "HNamaste",
 "Ayubowan",
 "Sawatdi" ]
+
 print(f" Greeting in a random language: {greeting[ranLang()]} ")
+  time.sleep(2.5)
